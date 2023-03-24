@@ -1,4 +1,4 @@
-export default class Pokemon {
+export default class PokeType{
     // 1. Typage des propiétés d'un pokémon.
     id: number;
     hp: number;

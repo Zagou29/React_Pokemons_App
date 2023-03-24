@@ -1,6 +1,6 @@
-import Pokemon from './pokemon';
+import PokeType from './pokemon';
 
-export const POKEMONS: Pokemon[] = [
+export const PokeTab: PokeType[] = [
     {
         id: 1,
         name: "Bulbizarre",
@@ -111,4 +111,4 @@ export const POKEMONS: Pokemon[] = [
     }
 ];
 
-export default POKEMONS;
+export default PokeTab;

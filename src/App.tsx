@@ -1,11 +1,8 @@
-import React, { FunctionComponent, useState } from "react";
-import POKEMONS from "./Models/moke-pokemon";
-import Pokemon from "./Models/pokemon";
+import React, { FunctionComponent } from "react";
+import PokemonList from "./Pages/pokemon-list";
 
 const App: FunctionComponent = () => {
-  const [pokemons,setPokemons] = useState<Pokemon[]>(POKEMONS);
-
-  return <h1>Salut, il y a {pokemons.length} Pokemons dans la liste</h1>;
+  return <PokemonList />;
 };
 
 export default App;
